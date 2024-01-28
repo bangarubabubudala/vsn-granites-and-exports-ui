@@ -144,6 +144,9 @@ const Header = () => {
                     <Nav>
                         <Button className='btn'>Home</Button>
                     </Nav>
+                     <Nav>
+                        <Button className='btn'>Home</Button>
+                    </Nav>
                 </Container>
             </Navbar>
         </>
