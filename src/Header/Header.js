@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
@@ -9,31 +9,18 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import useScrollToTop from '../Components/hooks/useScrollToTop ';
 import '../App.css'
 import { Link } from 'react-router-dom';
+import { Row } from 'react-bootstrap';
+import { TiThMenu } from "react-icons/ti";
 
 const Header = () => {
-    // const [isMenuOpen, setMenuOpen] = useState(false);
+    const [isMenuOpen, setMenuOpen] = useState(false);
 
-    // const toggleMenu = () => {
-    //     setMenuOpen(!isMenuOpen);
-    // };
-
-    // const closeMenu = () => {
-    //     setMenuOpen(false);
-    // };
-    const { scrollToTop, scrollToTopRef } = useScrollToTop();
-
-    // const scrollToTop = () => {
-    //     window.scrollTo({
-    //         top: 0,
-    //         behavior: 'smooth',
-    //     });
-    // };
-
-    const [isDropdownOpen, setDropdownOpen] = useState(false);
-
-    const toggleDropdown = () => {
-        setDropdownOpen(!isDropdownOpen);
+    const toggleMenu = () => {
+        setMenuOpen(!isMenuOpen);
     };
+
+    const section1Ref = useRef(null);
+    const section2Ref = useRef(null);
     return (
         <>
             <Navbar collapseOnSelect expand='lg' fixed="top" className="VSN-Top-Nav" style={{ posistion: "fixed", top: "0px" }}>
@@ -46,11 +33,20 @@ const Header = () => {
                             className="d-inline-block align-top"
                             alt="VSN Granites and Exports"
                         /></Navbar.Brand>
-                    <Navbar.Toggle
+                    {/* <Navbar.Toggle
                         // onClick={toggleMenu}
                         aria-controls="offcanvasNavbar-expand-expand" />
+                     */}
                     <Nav>
-                        <Button className='btn'>Home</Button>
+                        {isMenuOpen && <>
+                            <button type='button' className='btn btn-outline-light' >Home</button>&nbsp;
+                            <button type='button' className='btn btn-outline-light'>About</button>&nbsp;
+                            <button type='button' className='btn btn-outline-light'>Contact</button>&nbsp;
+                            <button type='button' className='btn btn-outline-light' >Services</button>&nbsp;
+                        </>
+                        }
+                        <Button className='btn btn-light' onClick={toggleMenu}><TiThMenu /></Button>
+
                     </Nav>
                 </Container>
             </Navbar>

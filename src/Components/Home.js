@@ -40,8 +40,11 @@ const Home = () => {
     const currentCompany = companyDetails[currentImageIndex];
 
     return (
-        < div id="home" className='outer-page-content-container'>
-            <h2 style={{ textAlign: 'center' }}>WELCOME TO  VSN GRANITES AND EXPORTS</h2>
+        < div id="home" className='outer-page-content-container' style={{ marginTop: "70px" }}>
+            <div className="ft-1 text-center" style={{ backgroundColor: "#5e758b", borderRadius: "5px" }}>
+                <h3><span>WELCOME TO</span> VSN GRANITES AND EXPORTS</h3>
+            </div>
+
 
 
             {/*  */}

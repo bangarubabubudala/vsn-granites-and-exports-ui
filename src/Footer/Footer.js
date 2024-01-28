@@ -42,13 +42,13 @@ const Footer = () => {
               <h5>Contact Us</h5>
               <p><i class="ri-phone-fill"></i> +92 3121324083</p>
               <p><i class="ri-mail-fill"></i>waleedishfaq1515@gmail.com</p>
-              <p><i class="ri-map-pin-2-fill"></i> Andhjra pradesh, India</p>
+              <p><i class="ri-map-pin-2-fill"></i> Andhra pradesh, India</p>
             </div>
           </div>
         </div>
       </div>
       <div className='Last-footer'>
-        <p>CopyRioghts@2024</p>
+        <p>CopyRights@2024</p>
       </div>
     </>
   )
