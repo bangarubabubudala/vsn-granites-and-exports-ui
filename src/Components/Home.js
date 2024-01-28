@@ -42,19 +42,19 @@ const Home = () => {
     return (
         < div id="home" className='outer-page-content-container'>
             <h2 style={{ textAlign: 'center' }}>WELCOME TO  VSN GRANITES AND EXPORTS</h2>
-        
-           
-              {/*  */}
+
+
+            {/*  */}
 
 
             <div className="slideshow-container">
-            {/* <marquee class="marq" 
+                {/* <marquee class="marq" 
                  direction="left" loop=""> 
             <div class="geek1"> 
                 ""WELCOME TO  VSN GRANITES AND EXPORTS""
             </div> 
         </marquee> */}
-        
+
                 <img
                     src={images[currentImageIndex]}
                     alt={`Slide ${currentImageIndex + 1}`}

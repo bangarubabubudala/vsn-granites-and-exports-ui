@@ -22,7 +22,7 @@ const Testimonials = () => {
                 {/* <!-- Wrapper for carousel items --> */}
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <div className="img-box"><img src="https://www.tutorialrepublic.com/examples/images/clients/1.jpg" alt=""/></div>
+                        <div className="img-box"><img src="https://www.tutorialrepublic.com/examples/images/clients/1.jpg" alt="" /></div>
                         <p className="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
                         <p className="overview"><b>Michael Holz</b></p>
                         {/* Seo Analyst at <a href="#">OsCorp Tech.</a> */}
@@ -37,7 +37,7 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <div className="img-box"><img src="https://i.imgur.com/Uz4FjGZ.jpg" alt=""/></div>
+                        <div className="img-box"><img src="https://i.imgur.com/Uz4FjGZ.jpg" alt="" /></div>
                         <p className="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum idac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
                         <p className="overview"><b>Paula Wilson</b></p>
                         {/* Media Analyst at <a href="#">SkyNet Inc.</a> */}
@@ -52,7 +52,7 @@ const Testimonials = () => {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <div className="img-box"><img src="	https://i.imgur.com/udGH5tO.jpg" alt=""/></div>
+                        <div className="img-box"><img src="	https://i.imgur.com/udGH5tO.jpg" alt="" /></div>
                         <p className="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit.</p>
                         <p className="overview"><b>Antonio Moreno</b></p>
                         {/* Web Developer at <a href="#">Circle Ltd.</a> */}
