@@ -23,7 +23,8 @@ const Testimonials = () => {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <div className="img-box"><img src="https://www.tutorialrepublic.com/examples/images/clients/1.jpg" alt="" /></div>
-                        <p className="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+                        <p className="testimonial">One of the leading exporter of Granite and Quartz stone from India. Very good. Modern industries
+</p>
                         <p className="overview"><b>Michael Holz</b></p>
                         {/* Seo Analyst at <a href="#">OsCorp Tech.</a> */}
                         <div className="star-rating">
@@ -38,7 +39,7 @@ const Testimonials = () => {
                     </div>
                     <div className="carousel-item">
                         <div className="img-box"><img src="https://i.imgur.com/Uz4FjGZ.jpg" alt="" /></div>
-                        <p className="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum idac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+                        <p className="testimonial">excellent and we'll organized and professionals with good experience 👍.</p>
                         <p className="overview"><b>Paula Wilson</b></p>
                         {/* Media Analyst at <a href="#">SkyNet Inc.</a> */}
                         <div className="star-rating">

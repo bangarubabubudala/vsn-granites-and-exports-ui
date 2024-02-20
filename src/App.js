@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react'
 import MainLayout from './Layouts/MainLayout';
 import Header from './Header/Header';
 import Home from './Components/Home';
-import Products from './Components/Products';
+import Products from '../src/Pages/Products';
 import About from './Components/About';
 import BussinceExcellence from './Components/BussinceExcellence';
 import Testimonials from './Components/Testimonials';
@@ -11,6 +11,10 @@ import { Button, Container } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { TiThMenu } from "react-icons/ti";
+import ContactUs from './Components/ContactUs'
+import Gallary from './Gallary';
+import Infraart from './Components/Infraart';
+import Productsrange from '../src/Pages/Productsrange'
 
 
 
@@ -74,14 +78,25 @@ const App = () => {
         <About />
       </div>
       <div ref={products} id='products'>
+      {/* multiple stone Products range named as Gallary */}
+        <Gallary />
+        {/*Hoem products Range  */}
+        <Productsrange />
+        {/* this is companys gallary  for company photos */}
         <Products />
+
       </div>
+      <div>
+      <Infraart />
+      </div>
+      
       <div ref={bussiness} id='bussinessExcellence'>
         <BussinceExcellence />
       </div>
       <section ref={test} id="services">
         <Testimonials />
       </section>
+      <ContactUs />
       <Footer />
     </>
   )

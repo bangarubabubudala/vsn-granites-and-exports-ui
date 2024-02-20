@@ -11,6 +11,7 @@ import '../App.css'
 import { Link } from 'react-router-dom';
 import { Row } from 'react-bootstrap';
 import { TiThMenu } from "react-icons/ti";
+import Logo from '../assets/Logo.png'
 
 const Header = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
@@ -27,20 +28,21 @@ const Header = () => {
                 <Container fluid>
                     <Navbar.Brand>
                         <img
-                            src="../img/vsnlogo.svg"
+                            src={Logo}
                             width="150"
-                            height="40"
+                            height="400"
                             className="d-inline-block align-top"
-                            alt="VSN Granites and Exports"
+                            alt="#VSN Granites and Exports"
                         /></Navbar.Brand>
-                    {/* <Navbar.Toggle
-                        // onClick={toggleMenu}
+                   
+                    <Navbar.Toggle
+                        onClick={toggleMenu}
                         aria-controls="offcanvasNavbar-expand-expand" />
-                     */}
+                    
                     <Nav>
                         {isMenuOpen && <>
                             <button type='button' className='btn btn-outline-light' >Home</button>&nbsp;
-                            <button type='button' className='btn btn-outline-light'>About</button>&nbsp;
+                            <button type='button' className='btn btn-outline-light'>About US</button>&nbsp;
                             <button type='button' className='btn btn-outline-light'>Contact</button>&nbsp;
                             <button type='button' className='btn btn-outline-light' >Services</button>&nbsp;
                         </>
@@ -50,6 +52,7 @@ const Header = () => {
                     </Nav>
                 </Container>
             </Navbar>
+            
         </>
     );
 }
